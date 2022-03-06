@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: #3c6382;
+    display: flex;
+    align-items: center;
+}
+.toolbox-cont > *{
+    margin-left: 4rem;
+    border-radius: 3px;
+
+}
+.toolbox-priority-cont{
+    height: 3.5rem;
+    width: 16rem;
+   background-color:#182C61;
+   display: flex;
+   justify-content: space-around;  
+   align-items: center;
+}
+.action-btn-cont{
+    display: flex;
+    height: 3.5rem;
+    width: 8rem;
+    background-color: #182C61;
+}
+.action-btn-cont >*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width :50% ;
+   font-size: 2.5rem ;
+   color: #1B9CFC;
+}
+.color{
+    height: 1.5rem;
+    width: 3rem;
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.black{
+    background-color: black;
+}
+.action-btn-cont >*:hover{
+    background-color: #5758BB;
+}
+.modal-cont{
+    height: 50vh;
+    width: 45vw;
+    background-color: #3c6382;
+    position: absolute;
+    top: calc(( 100vh - 50vh )/2);
+    left: calc((100vw - 45vw)/2);
+    display: none;
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    background-color: #c7ecee;
+    resize: none ;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.priority-color-cont{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.priority-color{
+    height: 3rem;
+    width: 60%;
+    
+
+}
+.border{
+    border: 2.5px solid white;
+}
+.ticket-cont{
+    height: 13rem;
+    width: 17rem;
+    background-color: #dff9fb;
+}
+.ticket-color{
+    height: 1rem;
+    
+}
+.ticket-id{
+    height: 2rem;
+    padding: 0.4rem;
+}
+.task-area{
+    height: calc(100% - 1rem - 2rem - 2rem);
+    padding: 0.4rem;
+    outline: none;
+} 
+.ticket-lock{
+    height: 2rem;
+    display: flex;
+    font-size: 2rem;
+    padding-right: 1rem;
+    justify-content: flex-end;
+    color: #82ccdd;
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
