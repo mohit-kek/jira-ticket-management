@@ -80,7 +80,7 @@ removeBtn.addEventListener("click", (e) => {
 
 modalCont.addEventListener("keydown",(e) => {
     let key = e.key;
-    if (key == "Shift"){
+    if (key == "Enter"){
         creatTicket(modalPriorityColor, textareaCont.value);
         modalCont.style.display = "none";
         addflag = false;
